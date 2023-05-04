@@ -39,6 +39,7 @@ public class AppTest
     public void testGetNombre() {
         App app = new App("Fabiano");
         assertEquals("Fabiano", app.getNombre());
+
     }
 
     public void testSetNombre() {
