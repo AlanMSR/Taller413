@@ -7,6 +7,7 @@ package org.example;
 public class App 
 {
     private String nombre;
+    private int edad;
 
     public App(String nombre) {
 
