@@ -8,6 +8,7 @@ public class App
 {
     private String nombre;
     private int edad;
+    private int cerati;
 
     public App(String nombre) {
 
@@ -20,5 +21,13 @@ public class App
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 }

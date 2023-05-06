@@ -37,14 +37,23 @@ public class AppTest
     }
 
     public void testGetNombre() {
+
         App app = new App("Fabiano");
         assertEquals("Fabiano", app.getNombre());
 
     }
 
     public void testSetNombre() {
+
         App app = new App("Fabiano");
         app.setNombre("Magnus");
         assertEquals("Magnus", app.getNombre());
+    }
+
+    public void testSetEdad() {
+
+        App app = new App("hola");
+        app.setEdad(90);
+        assertEquals(90, app.getEdad());
     }
 }
